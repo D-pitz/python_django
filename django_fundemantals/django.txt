@@ -1,1 +1,1 @@
-#django_fundementals
+Basic django programs using session and sql lite. 
