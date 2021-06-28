@@ -1,0 +1,46 @@
+* {
+    margin: auto;
+}
+
+#container {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+#boxholder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.goldbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+#activities {
+    width: 500px;
+    background-color: teal;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}

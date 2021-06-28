@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Gold</title>
+    {% load static %}
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">  
+</head>
+<body>
+    <header>Your Gold: {{gold}}</header>
+    <div id="container">
+        <div id="boxholder">
+            <div class="goldbox">
+                <h3>Farm</h3>
+                <h5>Get (10-20) Gold</h5>
+                <form action="/process_gold" method="post">
+                    {% csrf_token %}
+                    <input type= 'hidden' name="click" value = 'farm'>
+                    <input type="submit" name="farm" value="Find Gold!">
+                </form>
+            </div>
+            <div class="goldbox">
+                <h3>Cave</h3>
+                <h5>Get (5-10) Gold</h5>
+                <form action="/process_gold" method="post">
+                    {% csrf_token %}
+                    <input type= 'hidden' name= "click" value = 'cave'>
+                    <input type="submit" value="Find Gold!">
+                </form>
+            </div>
+            <div class="goldbox">
+                <h3>House</h3>
+                <h5>Get (2-5) Gold</h5>
+                <form action="/process_gold" method="post" name="click">
+                    {% csrf_token %}
+                    <input type= 'hidden' name= "click" value = 'house'>
+                    <input type="submit" value="Find Gold!">
+                </form>
+            </div>
+            <div class="goldbox">
+                <h3>Casino</h3>
+                <h5>Get (-50-50) Gold</h5>
+                <form action="/process_gold" method="post" name="click">
+                    {% csrf_token %}
+                    <input type= 'hidden' name= "click" value = 'casino'>
+                    <input type="submit" value="Find Gold!">
+                </form>
+            </div>
+        </div>
+        <form action="/clear">
+            <input type="submit" value="Reset" id="clear">
+        </form>
+    </div>
+    <div id="activities">
+        {% for i in act %}
+        <p>Your Moves: {{i}}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
