@@ -1,0 +1,1 @@
+Full Stack projects using django(v 2.2.4) and python(v 3.9.3)
