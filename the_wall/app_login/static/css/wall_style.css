@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    margin: auto;
+    width: 750px;
+}
+
+header {
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-color: red;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+
+#post_message{
+    color: red;
+}
+
+#messages{
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 15px;
+}
+
+#comment{
+    border-color: lightgrey;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 15px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(231, 90, 90);
+    color: whitesmoke;
+}
+
