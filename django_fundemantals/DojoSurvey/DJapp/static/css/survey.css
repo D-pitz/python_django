@@ -1,0 +1,12 @@
+* {
+    margin: auto;
+}
+
+#container{
+    width: 500px;
+    text-align: center;
+}
+
+button{
+    margin: 10px;
+}

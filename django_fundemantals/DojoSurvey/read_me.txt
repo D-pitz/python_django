@@ -1,0 +1,1 @@
+Fill out a survey and redirect to a show page that displays the result of the survey.
