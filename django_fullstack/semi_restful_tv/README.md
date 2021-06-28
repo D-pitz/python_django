@@ -1,0 +1,1 @@
+Full Crud app that uses RESTful routing to create, show, edit, and delete shows. Also validates the POST data and displays errors if data does now meet requirements.
