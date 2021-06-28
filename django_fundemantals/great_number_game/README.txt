@@ -1,1 +1,1 @@
-A game using session, counts the amount of Gold lost/received, tracks the moves made in a log. Using sql lite as a DB.
+A Game that generates a random number between 1 and 100 and allows you to narrow down your guesses until you guess the correct number by storing your data in session. 
