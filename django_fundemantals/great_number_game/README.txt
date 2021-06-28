@@ -1,0 +1,1 @@
+A game using session, counts the amount of Gold lost/received, tracks the moves made in a log. Using sql lite as a DB.

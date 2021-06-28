@@ -1,0 +1,1 @@
+A Game that tracks your gold lost/won, and keeps record of your moves in a log. Uses sqlite as DB.
