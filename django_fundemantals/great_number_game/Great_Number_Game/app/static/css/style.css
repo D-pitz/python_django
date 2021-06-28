@@ -1,0 +1,47 @@
+* {
+    margin: auto;
+}
+
+#container{
+    background-color: dimgrey;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+}
+
+.inbox{
+    font-weight: 500;
+    color: black;
+}
+
+#clear {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#submit{
+    border-radius: 10px;
+}
