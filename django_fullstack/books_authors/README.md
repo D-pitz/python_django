@@ -1,0 +1,1 @@
+Full CRUD app that adds books and authors to a DB. Books and Authors have a many to many relationship, books can be added to authors  and authors added to books.
